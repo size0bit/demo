@@ -47,7 +47,7 @@ cargo run
 
 ## 环境要求
 
-- Rust 1.56+ (2021 edition)
+- Rust 1.85+ (2024 edition)
 
 ## 项目结构
 
