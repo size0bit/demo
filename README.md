@@ -32,7 +32,7 @@
 | 第 18 章 | 智能指针：Box、Rc、RefCell |
 | 第 19 章 | 错误处理：panic、Result、? 运算符 |
 | 第 20 章 | 函数式编程：map、filter、fold |
-| 第 21 章 | unsafe 块：原始指针、 unsafe 操作 |
+| 第 21 章 | unsafe 块：原始指针、unsafe 操作 |
 
 ## 快速开始
 
@@ -58,7 +58,3 @@ demo/
 └── src/
     └── main.rs     # 所有演示代码
 ```
-
-## 许可证
-
-MIT License
