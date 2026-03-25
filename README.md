@@ -1,30 +1,64 @@
-# Rust 语法演示项目
+# Rust 语法教程
 
-## 位置
-`/home/z/Documents/demo/src/main.rs`
+系统性的 Rust 标准库知识点演示项目，通过详尽的注释帮助学习者循序渐进掌握 Rust 核心语法。
 
-## 内容
-完整的 Rust 核心语法演示，约 500 行，包含：
+## 特性
 
-- **基础语法**: 变量、可变性(shadowing)、常量、基本类型、字符串
-- **控制流**: if-else、match（多值匹配、守卫）、for/while/loop
-- **集合类型**: 数组、Vec、HashMap
-- **结构体**: 定义、方法、关联函数、derive 宏
-- **枚举**: 模式匹配、关联数据、methods
-- **Trait**: 定义、实现、为外部类型实现、默认方法
-- **泛型**: 泛型函数、泛型结构体、trait bounds
-- **生命周期**: `'a` 标记、longest 函数、结构体中的生命周期
-- **闭包**: 环境捕获、Fn/FnMut/FnOnce、move 关键字
-- **迭代器**: 适配器(map/filter)、消费器(sum/fold)、自定义迭代器
-- **智能指针**: Box、Rc、RefCell
-- **错误处理**: Option、Result、? 运算符
-- **其他**: 类型别名、#[must_use]、unsafe、static
+- **21 个章节**，覆盖 Rust 核心知识点
+- **详尽注释**，每个知识点都有中文讲解
+- **代码可运行**，理论与实践结合
 
-## 运行
+## 内容概览
+
+| 章节 | 主题 |
+|------|------|
+| 第 1 章 | 变量与常量：let、mut、const、shadowing |
+| 第 2 章 | 基本数据类型：整数、浮点、布尔、字符、类型转换 |
+| 第 3 章 | 运算符：算术、关系、逻辑、位运算 |
+| 第 4 章 | 控制流：if-else、match、loop、for、while |
+| 第 5 章 | 函数：定义、参数、返回值、泛型函数 |
+| 第 6 章 | 数组：定义、遍历、切片 |
+| 第 7 章 | Vec 动态数组：创建、访问、修改 |
+| 第 8 章 | 字符串：&str 与 String、字符串操作 |
+| 第 9 章 | HashMap：创建、访问、遍历 |
+| 第 10 章 | 结构体：定义、方法、关联函数、元组结构体 |
+| 第 11 章 | 枚举：基础枚举、带数据的枚举、模式匹配 |
+| 第 12 章 | Option 与 Result：错误处理基础 |
+| 第 13 章 | Trait：定义、实现、默认方法 |
+| 第 14 章 | 泛型：泛型函数、泛型结构体、trait bounds |
+| 第 15 章 | 生命周期：'a 标注、结构体中的生命周期 |
+| 第 16 章 | 闭包：环境捕获、Fn/FnMut/FnOnce、move |
+| 第 17 章 | 迭代器：适配器、消费器、自定义迭代器 |
+| 第 18 章 | 智能指针：Box、Rc、RefCell |
+| 第 19 章 | 错误处理：panic、Result、? 运算符 |
+| 第 20 章 | 函数式编程：map、filter、fold |
+| 第 21 章 | unsafe 块：原始指针、 unsafe 操作 |
+
+## 快速开始
+
 ```bash
-cd /home/z/Documents/demo
+# 克隆项目
+git clone https://github.com/size0bit/demo.git
+cd demo
+
+# 运行
 cargo run
 ```
 
----
-*保存于 2026-03-26*
+## 环境要求
+
+- Rust 1.56+ (2021 edition)
+
+## 项目结构
+
+```
+demo/
+├── Cargo.toml      # 项目配置
+├── README.md       # 项目说明
+└── src/
+    └── main.rs     # 所有演示代码
+```
+
+## 许可证
+
+MIT License
